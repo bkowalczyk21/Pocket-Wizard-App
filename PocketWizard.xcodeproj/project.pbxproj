@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550461A622D8E948002755C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461A522D8E948002755C1 /* AppDelegate.swift */; };
+		550461A822D8E948002755C1 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461A722D8E948002755C1 /* InventoryViewController.swift */; };
+		550461AD22D8E948002755C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550461AB22D8E948002755C1 /* Main.storyboard */; };
+		550461AF22D8E94A002755C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550461AE22D8E94A002755C1 /* Assets.xcassets */; };
+		550461B222D8E94A002755C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550461B022D8E94A002755C1 /* LaunchScreen.storyboard */; };
+		550461BD22D8E94A002755C1 /* PocketWizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461BC22D8E94A002755C1 /* PocketWizardTests.swift */; };
+		550461C822D8E94A002755C1 /* PocketWizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461C722D8E94A002755C1 /* PocketWizardUITests.swift */; };
+		550461E422D92BD4002755C1 /* AddDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461E322D92BD3002755C1 /* AddDevice.swift */; };
+		550461E622D933C4002755C1 /* NewDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550461E522D933C4002755C1 /* NewDeviceTableViewCell.swift */; };
+		5506A65E22FB76020089F8BF /* TamperAlertsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506A65D22FB76020089F8BF /* TamperAlertsTableViewCell.swift */; };
+		5506A66022FB791F0089F8BF /* Tamper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506A65F22FB791F0089F8BF /* Tamper.swift */; };
+		55116D9424D9E74700F07735 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55116D9324D9E74700F07735 /* ViewExtensions.swift */; };
+		55116D9624D9EB4700F07735 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55116D9524D9EB4700F07735 /* HomeViewController.swift */; };
+		55116D9824D9EEBC00F07735 /* PWLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55116D9724D9EEBC00F07735 /* PWLogoView.swift */; };
+		55116D9A24D9F11F00F07735 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55116D9924D9F11F00F07735 /* FontExtensions.swift */; };
+		551236FC255C34D300289A8F /* FirmwareUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551236FB255C34D300289A8F /* FirmwareUpdateViewController.swift */; };
+		5512370C255C444400289A8F /* FirmwareUpdateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512370B255C444400289A8F /* FirmwareUpdateButton.swift */; };
+		551995B824E3303600E9558B /* DeviceSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995B724E3303600E9558B /* DeviceSettingsViewController.swift */; };
+		551995BA24E3310000E9558B /* ZoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995B924E3310000E9558B /* ZoneButton.swift */; };
+		551995BC24E33B1800E9558B /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995BB24E33B1800E9558B /* RoundedShadowView.swift */; };
+		551995BE24E3472400E9558B /* ChannelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995BD24E3472400E9558B /* ChannelPickerView.swift */; };
+		551995C024E34B0600E9558B /* TamperStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995BF24E34B0600E9558B /* TamperStateButton.swift */; };
+		551995C224E34DE700E9558B /* TamperSensitivitySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995C124E34DE700E9558B /* TamperSensitivitySlider.swift */; };
+		551995C424E34F5F00E9558B /* ModeSettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551995C324E34F5F00E9558B /* ModeSettingButton.swift */; };
+		551C44E822DCC4FE00A538EA /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C44E722DCC4FE00A538EA /* InventoryTableViewCell.swift */; };
+		551C44EE22DCE93C00A538EA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C44ED22DCE93C00A538EA /* Device.swift */; };
+		551C44F022DD2A8000A538EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C44EF22DD2A8000A538EA /* SettingsViewController.swift */; };
+		552CEFC624A113C500C5D570 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CEFC524A113C500C5D570 /* WebKit.framework */; };
+		552DB80022EB71FC001DC8E4 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552DB7FF22EB71FC001DC8E4 /* InstructionsViewController.swift */; };
+		552DB80222EB82D3001DC8E4 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552DB80122EB82D3001DC8E4 /* StoreViewController.swift */; };
+		552E50D922DE3CFC0025F64D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E50D822DE3CFC0025F64D /* Settings.swift */; };
+		553B097A230303BB000B687D /* FirmwareRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B0979230303BB000B687D /* FirmwareRetriever.swift */; };
+		553CE66D24C755F000307836 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE66C24C755F000307836 /* BluetoothManager.swift */; };
+		55434EDB2478223A00B54E32 /* ScanPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55434EDA2478223A00B54E32 /* ScanPopUpViewController.swift */; };
+		554D656E25608BA3002E47F9 /* FirmwareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D656D25608BA3002E47F9 /* FirmwareManager.swift */; };
+		55547F6325646559003892A8 /* UpdateProgressAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55547F6225646559003892A8 /* UpdateProgressAnimationView.swift */; };
+		555A5F4224DC80480064A843 /* DiscoverPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A5F4124DC80480064A843 /* DiscoverPopUpViewController.swift */; };
+		5563A6F922F8B29C0005C08E /* ShotCounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A6F822F8B29C0005C08E /* ShotCounterTableViewCell.swift */; };
+		5580041824A11E9100B1D89E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5580041724A11E9100B1D89E /* awsconfiguration.json */; };
+		5580041A24A11E9800B1D89E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5580041924A11E9800B1D89E /* amplifyconfiguration.json */; };
+		5587CC9524883DE600D1E5B5 /* InventoryTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587CC9424883DE600D1E5B5 /* InventoryTableViewDataSource.swift */; };
+		5587CC992488483200D1E5B5 /* ScanTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587CC982488483200D1E5B5 /* ScanTableViewDataSource.swift */; };
+		55897B45248EBC1A00307434 /* FirmwareUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55897B44248EBC1A00307434 /* FirmwareUpdateManager.swift */; };
+		558E7C1C24C618F200D3CA28 /* PocketWizard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558E7C1A24C618F200D3CA28 /* PocketWizard.xcdatamodeld */; };
+		558E7C1F24C61DC500D3CA28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558E7C1E24C61DC500D3CA28 /* CoreDataManager.swift */; };
+		55A04E7B24E598850027AE59 /* TestTriggerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A04E7A24E598850027AE59 /* TestTriggerButton.swift */; };
+		55A04E7D24E59C350027AE59 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A04E7C24E59C350027AE59 /* ConnectButton.swift */; };
+		55A04E7F24E5A0F80027AE59 /* FirmwareUpdateBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A04E7E24E5A0F80027AE59 /* FirmwareUpdateBarButtonItem.swift */; };
+		55A04E8124E5A1DA0027AE59 /* PocketWizardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A04E8024E5A1DA0027AE59 /* PocketWizardImageView.swift */; };
+		55A185F1247839CD000E264B /* PopUpScanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A185F0247839CD000E264B /* PopUpScanTableViewCell.swift */; };
+		55DCE4D424C8DD63007B8DCD /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCE4D324C8DD63007B8DCD /* DataExtensions.swift */; };
+		55E1FE0424E45F370054A2B5 /* SettingTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1FE0324E45F370054A2B5 /* SettingTitleLabel.swift */; };
+		55EDE37324A5437800190D92 /* FirmwareUpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EDE37224A5437800190D92 /* FirmwareUpdatesViewController.swift */; };
+		55FC3FA022DFB0E5007F2F8B /* BluetoothPeripherals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3F9F22DFB0E5007F2F8B /* BluetoothPeripherals.swift */; };
+		55FC3FA222DFC255007F2F8B /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3FA122DFC255007F2F8B /* Inventory.swift */; };
+		EB9DD5B9C5EC965463E5662B /* Pods_PocketWizard_PocketWizardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEB003A751C4064FBDB50EF /* Pods_PocketWizard_PocketWizardUITests.framework */; };
+		F4267C2FB610CDEB927A3BAC /* Pods_PocketWizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCED313761A11C8F95C43A7 /* Pods_PocketWizard.framework */; };
+		F71AEB52E122C8AC510EDDA6 /* Pods_PocketWizardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748CF7D99C8FBBFF8A09241E /* Pods_PocketWizardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550461B922D8E94A002755C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5504619A22D8E948002755C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550461A122D8E948002755C1;
+			remoteInfo = PocketWizard;
+		};
+		550461C422D8E94A002755C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5504619A22D8E948002755C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550461A122D8E948002755C1;
+			remoteInfo = PocketWizard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FCED313761A11C8F95C43A7 /* Pods_PocketWizard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWizard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44636B2B43DE723EB83B8846 /* Pods-PocketWizard-PocketWizardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizard-PocketWizardUITests.release.xcconfig"; path = "Target Support Files/Pods-PocketWizard-PocketWizardUITests/Pods-PocketWizard-PocketWizardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEB003A751C4064FBDB50EF /* Pods_PocketWizard_PocketWizardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWizard_PocketWizardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550461A522D8E948002755C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		550461A722D8E948002755C1 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		550461AC22D8E948002755C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550461AE22D8E94A002755C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550461B122D8E94A002755C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		550461B322D8E94A002755C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550461BC22D8E94A002755C1 /* PocketWizardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWizardTests.swift; sourceTree = "<group>"; };
+		550461BE22D8E94A002755C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550461C722D8E94A002755C1 /* PocketWizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWizardUITests.swift; sourceTree = "<group>"; };
+		550461C922D8E94A002755C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550461E322D92BD3002755C1 /* AddDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDevice.swift; sourceTree = "<group>"; };
+		550461E522D933C4002755C1 /* NewDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		5506A65D22FB76020089F8BF /* TamperAlertsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamperAlertsTableViewCell.swift; sourceTree = "<group>"; };
+		5506A65F22FB791F0089F8BF /* Tamper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamper.swift; sourceTree = "<group>"; };
+		55116D9324D9E74700F07735 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		55116D9524D9EB4700F07735 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		55116D9724D9EEBC00F07735 /* PWLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWLogoView.swift; sourceTree = "<group>"; };
+		55116D9924D9F11F00F07735 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		551236FB255C34D300289A8F /* FirmwareUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareUpdateViewController.swift; sourceTree = "<group>"; };
+		5512370B255C444400289A8F /* FirmwareUpdateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareUpdateButton.swift; sourceTree = "<group>"; };
+		551995B724E3303600E9558B /* DeviceSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettingsViewController.swift; sourceTree = "<group>"; };
+		551995B924E3310000E9558B /* ZoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneButton.swift; sourceTree = "<group>"; };
+		551995BB24E33B1800E9558B /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		551995BD24E3472400E9558B /* ChannelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPickerView.swift; sourceTree = "<group>"; };
+		551995BF24E34B0600E9558B /* TamperStateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamperStateButton.swift; sourceTree = "<group>"; };
+		551995C124E34DE700E9558B /* TamperSensitivitySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamperSensitivitySlider.swift; sourceTree = "<group>"; };
+		551995C324E34F5F00E9558B /* ModeSettingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSettingButton.swift; sourceTree = "<group>"; };
+		551C44E722DCC4FE00A538EA /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
+		551C44ED22DCE93C00A538EA /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		551C44EF22DD2A8000A538EA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		552CEFC524A113C500C5D570 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		552DB7FF22EB71FC001DC8E4 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		552DB80122EB82D3001DC8E4 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		552E50D822DE3CFC0025F64D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		553B0979230303BB000B687D /* FirmwareRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareRetriever.swift; sourceTree = "<group>"; };
+		553CE66C24C755F000307836 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		553E727024B4E203007070E9 /* PocketWizard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PocketWizard.entitlements; sourceTree = "<group>"; };
+		55434EDA2478223A00B54E32 /* ScanPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPopUpViewController.swift; sourceTree = "<group>"; };
+		554D656D25608BA3002E47F9 /* FirmwareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareManager.swift; sourceTree = "<group>"; };
+		55547F6225646559003892A8 /* UpdateProgressAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProgressAnimationView.swift; sourceTree = "<group>"; };
+		555A5F4124DC80480064A843 /* DiscoverPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverPopUpViewController.swift; sourceTree = "<group>"; };
+		5563A6F822F8B29C0005C08E /* ShotCounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotCounterTableViewCell.swift; sourceTree = "<group>"; };
+		5580041424A11E3700B1D89E /* PocketWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580041524A11E3700B1D89E /* PocketWizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWizardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580041624A11E3700B1D89E /* PocketWizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWizardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580041724A11E9100B1D89E /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		5580041924A11E9800B1D89E /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		5587CC9424883DE600D1E5B5 /* InventoryTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewDataSource.swift; sourceTree = "<group>"; };
+		5587CC982488483200D1E5B5 /* ScanTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewDataSource.swift; sourceTree = "<group>"; };
+		55897B44248EBC1A00307434 /* FirmwareUpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareUpdateManager.swift; sourceTree = "<group>"; };
+		558E7C1B24C618F200D3CA28 /* PocketWizard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketWizard.xcdatamodel; sourceTree = "<group>"; };
+		558E7C1E24C61DC500D3CA28 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		55A04E7A24E598850027AE59 /* TestTriggerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTriggerButton.swift; sourceTree = "<group>"; };
+		55A04E7C24E59C350027AE59 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		55A04E7E24E5A0F80027AE59 /* FirmwareUpdateBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareUpdateBarButtonItem.swift; sourceTree = "<group>"; };
+		55A04E8024E5A1DA0027AE59 /* PocketWizardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWizardImageView.swift; sourceTree = "<group>"; };
+		55A185F0247839CD000E264B /* PopUpScanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpScanTableViewCell.swift; path = PocketWizard/ViewControllers/PopUpScanTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		55DCE4D324C8DD63007B8DCD /* DataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		55E1FE0324E45F370054A2B5 /* SettingTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTitleLabel.swift; sourceTree = "<group>"; };
+		55EDE37224A5437800190D92 /* FirmwareUpdatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareUpdatesViewController.swift; sourceTree = "<group>"; };
+		55FC3F9F22DFB0E5007F2F8B /* BluetoothPeripherals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPeripherals.swift; sourceTree = "<group>"; };
+		55FC3FA122DFC255007F2F8B /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		5BB045DE520C2CC4F579B442 /* Pods-PocketWizard-PocketWizardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizard-PocketWizardUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketWizard-PocketWizardUITests/Pods-PocketWizard-PocketWizardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		748CF7D99C8FBBFF8A09241E /* Pods_PocketWizardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWizardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDD7E8A506F8522C3C65F56 /* Pods-PocketWizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizard.release.xcconfig"; path = "Target Support Files/Pods-PocketWizard/Pods-PocketWizard.release.xcconfig"; sourceTree = "<group>"; };
+		823CE30C797E52E721E27EED /* Pods-PocketWizardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizardTests.release.xcconfig"; path = "Target Support Files/Pods-PocketWizardTests/Pods-PocketWizardTests.release.xcconfig"; sourceTree = "<group>"; };
+		95EC22DE9D56C9A84ACD312D /* Pods-PocketWizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizard.debug.xcconfig"; path = "Target Support Files/Pods-PocketWizard/Pods-PocketWizard.debug.xcconfig"; sourceTree = "<group>"; };
+		B626CA5A8DAEFD1ED92906A1 /* Pods-PocketWizardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWizardTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketWizardTests/Pods-PocketWizardTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5504619F22D8E948002755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552CEFC624A113C500C5D570 /* WebKit.framework in Frameworks */,
+				F4267C2FB610CDEB927A3BAC /* Pods_PocketWizard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461B522D8E94A002755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AEB52E122C8AC510EDDA6 /* Pods_PocketWizardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461C022D8E94A002755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9DD5B9C5EC965463E5662B /* Pods_PocketWizard_PocketWizardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475BF8E7F16D856C50FD9FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95EC22DE9D56C9A84ACD312D /* Pods-PocketWizard.debug.xcconfig */,
+				7CDD7E8A506F8522C3C65F56 /* Pods-PocketWizard.release.xcconfig */,
+				5BB045DE520C2CC4F579B442 /* Pods-PocketWizard-PocketWizardUITests.debug.xcconfig */,
+				44636B2B43DE723EB83B8846 /* Pods-PocketWizard-PocketWizardUITests.release.xcconfig */,
+				B626CA5A8DAEFD1ED92906A1 /* Pods-PocketWizardTests.debug.xcconfig */,
+				823CE30C797E52E721E27EED /* Pods-PocketWizardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5504619922D8E948002755C1 = {
+			isa = PBXGroup;
+			children = (
+				550461A422D8E948002755C1 /* PocketWizard */,
+				550461BB22D8E94A002755C1 /* PocketWizardTests */,
+				550461C622D8E94A002755C1 /* PocketWizardUITests */,
+				552CEFC424A113C500C5D570 /* Frameworks */,
+				475BF8E7F16D856C50FD9FAA /* Pods */,
+				5580041424A11E3700B1D89E /* PocketWizard.app */,
+				5580041524A11E3700B1D89E /* PocketWizardTests.xctest */,
+				5580041624A11E3700B1D89E /* PocketWizardUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		550461A422D8E948002755C1 /* PocketWizard */ = {
+			isa = PBXGroup;
+			children = (
+				55DCE4D224C8DD49007B8DCD /* Extensions */,
+				558E7C1D24C61DAC00D3CA28 /* Managers */,
+				553E727024B4E203007070E9 /* PocketWizard.entitlements */,
+				5580041924A11E9800B1D89E /* amplifyconfiguration.json */,
+				5580041724A11E9100B1D89E /* awsconfiguration.json */,
+				5587CC93248836C300D1E5B5 /* Data Sources */,
+				55E961E4230B08240046BB60 /* ViewModels */,
+				551C44EC22DCD0C300A538EA /* Models */,
+				551C44EB22DCD0A300A538EA /* Views */,
+				551C44EA22DCD08F00A538EA /* Delegates */,
+				551C44E922DCD05D00A538EA /* ViewControllers */,
+				550461AE22D8E94A002755C1 /* Assets.xcassets */,
+				550461B022D8E94A002755C1 /* LaunchScreen.storyboard */,
+				550461B322D8E94A002755C1 /* Info.plist */,
+				550461AB22D8E948002755C1 /* Main.storyboard */,
+			);
+			path = PocketWizard;
+			sourceTree = "<group>";
+		};
+		550461BB22D8E94A002755C1 /* PocketWizardTests */ = {
+			isa = PBXGroup;
+			children = (
+				550461BC22D8E94A002755C1 /* PocketWizardTests.swift */,
+				550461BE22D8E94A002755C1 /* Info.plist */,
+			);
+			path = PocketWizardTests;
+			sourceTree = "<group>";
+		};
+		550461C622D8E94A002755C1 /* PocketWizardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550461C722D8E94A002755C1 /* PocketWizardUITests.swift */,
+				550461C922D8E94A002755C1 /* Info.plist */,
+			);
+			path = PocketWizardUITests;
+			sourceTree = "<group>";
+		};
+		551C44E922DCD05D00A538EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				552DB80122EB82D3001DC8E4 /* StoreViewController.swift */,
+				55116D9524D9EB4700F07735 /* HomeViewController.swift */,
+				555A5F4124DC80480064A843 /* DiscoverPopUpViewController.swift */,
+				551995B724E3303600E9558B /* DeviceSettingsViewController.swift */,
+				552DB7FF22EB71FC001DC8E4 /* InstructionsViewController.swift */,
+				55EDE37224A5437800190D92 /* FirmwareUpdatesViewController.swift */,
+				551C44EF22DD2A8000A538EA /* SettingsViewController.swift */,
+				550461A722D8E948002755C1 /* InventoryViewController.swift */,
+				55434EDA2478223A00B54E32 /* ScanPopUpViewController.swift */,
+				551236FB255C34D300289A8F /* FirmwareUpdateViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		551C44EA22DCD08F00A538EA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				550461A522D8E948002755C1 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		551C44EB22DCD0A300A538EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55A185F0247839CD000E264B /* PopUpScanTableViewCell.swift */,
+				55116D9724D9EEBC00F07735 /* PWLogoView.swift */,
+				551995BB24E33B1800E9558B /* RoundedShadowView.swift */,
+				551995BD24E3472400E9558B /* ChannelPickerView.swift */,
+				55E1FE0324E45F370054A2B5 /* SettingTitleLabel.swift */,
+				55A04E7A24E598850027AE59 /* TestTriggerButton.swift */,
+				55A04E7E24E5A0F80027AE59 /* FirmwareUpdateBarButtonItem.swift */,
+				55A04E8024E5A1DA0027AE59 /* PocketWizardImageView.swift */,
+				55A04E7C24E59C350027AE59 /* ConnectButton.swift */,
+				551995BF24E34B0600E9558B /* TamperStateButton.swift */,
+				551995C124E34DE700E9558B /* TamperSensitivitySlider.swift */,
+				551995C324E34F5F00E9558B /* ModeSettingButton.swift */,
+				551995B924E3310000E9558B /* ZoneButton.swift */,
+				5563A6F822F8B29C0005C08E /* ShotCounterTableViewCell.swift */,
+				551C44E722DCC4FE00A538EA /* InventoryTableViewCell.swift */,
+				550461E522D933C4002755C1 /* NewDeviceTableViewCell.swift */,
+				5506A65D22FB76020089F8BF /* TamperAlertsTableViewCell.swift */,
+				5512370B255C444400289A8F /* FirmwareUpdateButton.swift */,
+				55547F6225646559003892A8 /* UpdateProgressAnimationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		551C44EC22DCD0C300A538EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				553B0979230303BB000B687D /* FirmwareRetriever.swift */,
+				55FC3F9F22DFB0E5007F2F8B /* BluetoothPeripherals.swift */,
+				551C44ED22DCE93C00A538EA /* Device.swift */,
+				558E7C1A24C618F200D3CA28 /* PocketWizard.xcdatamodeld */,
+				55897B44248EBC1A00307434 /* FirmwareUpdateManager.swift */,
+				5506A65F22FB791F0089F8BF /* Tamper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		552CEFC424A113C500C5D570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				552CEFC524A113C500C5D570 /* WebKit.framework */,
+				1FCED313761A11C8F95C43A7 /* Pods_PocketWizard.framework */,
+				4FEB003A751C4064FBDB50EF /* Pods_PocketWizard_PocketWizardUITests.framework */,
+				748CF7D99C8FBBFF8A09241E /* Pods_PocketWizardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5587CC93248836C300D1E5B5 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5587CC9424883DE600D1E5B5 /* InventoryTableViewDataSource.swift */,
+				5587CC982488483200D1E5B5 /* ScanTableViewDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		558E7C1D24C61DAC00D3CA28 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				558E7C1E24C61DC500D3CA28 /* CoreDataManager.swift */,
+				553CE66C24C755F000307836 /* BluetoothManager.swift */,
+				554D656D25608BA3002E47F9 /* FirmwareManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		55DCE4D224C8DD49007B8DCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55DCE4D324C8DD63007B8DCD /* DataExtensions.swift */,
+				55116D9324D9E74700F07735 /* ViewExtensions.swift */,
+				55116D9924D9F11F00F07735 /* FontExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55E961E4230B08240046BB60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				55FC3FA122DFC255007F2F8B /* Inventory.swift */,
+				550461E322D92BD3002755C1 /* AddDevice.swift */,
+				552E50D822DE3CFC0025F64D /* Settings.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550461A122D8E948002755C1 /* PocketWizard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550461CC22D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizard" */;
+			buildPhases = (
+				EDC91828831665F337890DDE /* [CP] Check Pods Manifest.lock */,
+				5504619E22D8E948002755C1 /* Sources */,
+				5504619F22D8E948002755C1 /* Frameworks */,
+				550461A022D8E948002755C1 /* Resources */,
+				E933E762227AC019A46ADB8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketWizard;
+			productName = PocketWizard;
+			productReference = 5580041424A11E3700B1D89E /* PocketWizard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550461B722D8E94A002755C1 /* PocketWizardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550461CF22D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizardTests" */;
+			buildPhases = (
+				856A38109F53C09FBB08A7BF /* [CP] Check Pods Manifest.lock */,
+				550461B422D8E94A002755C1 /* Sources */,
+				550461B522D8E94A002755C1 /* Frameworks */,
+				550461B622D8E94A002755C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550461BA22D8E94A002755C1 /* PBXTargetDependency */,
+			);
+			name = PocketWizardTests;
+			productName = PocketWizardTests;
+			productReference = 5580041524A11E3700B1D89E /* PocketWizardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550461C222D8E94A002755C1 /* PocketWizardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550461D222D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizardUITests" */;
+			buildPhases = (
+				FC6BD948ABC7EDB1A37968E7 /* [CP] Check Pods Manifest.lock */,
+				550461BF22D8E94A002755C1 /* Sources */,
+				550461C022D8E94A002755C1 /* Frameworks */,
+				550461C122D8E94A002755C1 /* Resources */,
+				78B37E431FB632D306548929 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550461C522D8E94A002755C1 /* PBXTargetDependency */,
+			);
+			name = PocketWizardUITests;
+			productName = PocketWizardUITests;
+			productReference = 5580041624A11E3700B1D89E /* PocketWizardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5504619A22D8E948002755C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bryce Kowalczyk";
+				TargetAttributes = {
+					550461A122D8E948002755C1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					550461B722D8E94A002755C1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 550461A122D8E948002755C1;
+					};
+					550461C222D8E94A002755C1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 550461A122D8E948002755C1;
+					};
+				};
+			};
+			buildConfigurationList = 5504619D22D8E948002755C1 /* Build configuration list for PBXProject "PocketWizard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5504619922D8E948002755C1;
+			productRefGroup = 5504619922D8E948002755C1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550461A122D8E948002755C1 /* PocketWizard */,
+				550461B722D8E94A002755C1 /* PocketWizardTests */,
+				550461C222D8E94A002755C1 /* PocketWizardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550461A022D8E948002755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5580041824A11E9100B1D89E /* awsconfiguration.json in Resources */,
+				5580041A24A11E9800B1D89E /* amplifyconfiguration.json in Resources */,
+				550461B222D8E94A002755C1 /* LaunchScreen.storyboard in Resources */,
+				550461AF22D8E94A002755C1 /* Assets.xcassets in Resources */,
+				550461AD22D8E948002755C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461B622D8E94A002755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461C122D8E94A002755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78B37E431FB632D306548929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketWizard-PocketWizardUITests/Pods-PocketWizard-PocketWizardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketWizard-PocketWizardUITests/Pods-PocketWizard-PocketWizardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketWizard-PocketWizardUITests/Pods-PocketWizard-PocketWizardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		856A38109F53C09FBB08A7BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketWizardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E933E762227AC019A46ADB8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketWizard/Pods-PocketWizard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketWizard/Pods-PocketWizard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketWizard/Pods-PocketWizard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC91828831665F337890DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketWizard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6BD948ABC7EDB1A37968E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketWizard-PocketWizardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5504619E22D8E948002755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E1FE0424E45F370054A2B5 /* SettingTitleLabel.swift in Sources */,
+				552E50D922DE3CFC0025F64D /* Settings.swift in Sources */,
+				55A04E7B24E598850027AE59 /* TestTriggerButton.swift in Sources */,
+				551995BE24E3472400E9558B /* ChannelPickerView.swift in Sources */,
+				5506A65E22FB76020089F8BF /* TamperAlertsTableViewCell.swift in Sources */,
+				55A04E7D24E59C350027AE59 /* ConnectButton.swift in Sources */,
+				55116D9A24D9F11F00F07735 /* FontExtensions.swift in Sources */,
+				5506A66022FB791F0089F8BF /* Tamper.swift in Sources */,
+				558E7C1C24C618F200D3CA28 /* PocketWizard.xcdatamodeld in Sources */,
+				55FC3FA222DFC255007F2F8B /* Inventory.swift in Sources */,
+				55EDE37324A5437800190D92 /* FirmwareUpdatesViewController.swift in Sources */,
+				551995C024E34B0600E9558B /* TamperStateButton.swift in Sources */,
+				558E7C1F24C61DC500D3CA28 /* CoreDataManager.swift in Sources */,
+				550461A622D8E948002755C1 /* AppDelegate.swift in Sources */,
+				553B097A230303BB000B687D /* FirmwareRetriever.swift in Sources */,
+				5587CC9524883DE600D1E5B5 /* InventoryTableViewDataSource.swift in Sources */,
+				552DB80222EB82D3001DC8E4 /* StoreViewController.swift in Sources */,
+				5587CC992488483200D1E5B5 /* ScanTableViewDataSource.swift in Sources */,
+				551995C424E34F5F00E9558B /* ModeSettingButton.swift in Sources */,
+				551995BC24E33B1800E9558B /* RoundedShadowView.swift in Sources */,
+				55A185F1247839CD000E264B /* PopUpScanTableViewCell.swift in Sources */,
+				55116D9424D9E74700F07735 /* ViewExtensions.swift in Sources */,
+				550461A822D8E948002755C1 /* InventoryViewController.swift in Sources */,
+				553CE66D24C755F000307836 /* BluetoothManager.swift in Sources */,
+				55A04E8124E5A1DA0027AE59 /* PocketWizardImageView.swift in Sources */,
+				551995B824E3303600E9558B /* DeviceSettingsViewController.swift in Sources */,
+				551C44E822DCC4FE00A538EA /* InventoryTableViewCell.swift in Sources */,
+				551C44EE22DCE93C00A538EA /* Device.swift in Sources */,
+				55116D9824D9EEBC00F07735 /* PWLogoView.swift in Sources */,
+				551995BA24E3310000E9558B /* ZoneButton.swift in Sources */,
+				55434EDB2478223A00B54E32 /* ScanPopUpViewController.swift in Sources */,
+				55116D9624D9EB4700F07735 /* HomeViewController.swift in Sources */,
+				555A5F4224DC80480064A843 /* DiscoverPopUpViewController.swift in Sources */,
+				55897B45248EBC1A00307434 /* FirmwareUpdateManager.swift in Sources */,
+				550461E622D933C4002755C1 /* NewDeviceTableViewCell.swift in Sources */,
+				551995C224E34DE700E9558B /* TamperSensitivitySlider.swift in Sources */,
+				5563A6F922F8B29C0005C08E /* ShotCounterTableViewCell.swift in Sources */,
+				55547F6325646559003892A8 /* UpdateProgressAnimationView.swift in Sources */,
+				55A04E7F24E5A0F80027AE59 /* FirmwareUpdateBarButtonItem.swift in Sources */,
+				552DB80022EB71FC001DC8E4 /* InstructionsViewController.swift in Sources */,
+				550461E422D92BD4002755C1 /* AddDevice.swift in Sources */,
+				554D656E25608BA3002E47F9 /* FirmwareManager.swift in Sources */,
+				551236FC255C34D300289A8F /* FirmwareUpdateViewController.swift in Sources */,
+				55DCE4D424C8DD63007B8DCD /* DataExtensions.swift in Sources */,
+				5512370C255C444400289A8F /* FirmwareUpdateButton.swift in Sources */,
+				55FC3FA022DFB0E5007F2F8B /* BluetoothPeripherals.swift in Sources */,
+				551C44F022DD2A8000A538EA /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461B422D8E94A002755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550461BD22D8E94A002755C1 /* PocketWizardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550461BF22D8E94A002755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550461C822D8E94A002755C1 /* PocketWizardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550461BA22D8E94A002755C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550461A122D8E948002755C1 /* PocketWizard */;
+			targetProxy = 550461B922D8E94A002755C1 /* PBXContainerItemProxy */;
+		};
+		550461C522D8E94A002755C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550461A122D8E948002755C1 /* PocketWizard */;
+			targetProxy = 550461C422D8E94A002755C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550461AB22D8E948002755C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550461AC22D8E948002755C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550461B022D8E94A002755C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550461B122D8E94A002755C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550461CA22D8E94A002755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		550461CB22D8E94A002755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550461CD22D8E94A002755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EC22DE9D56C9A84ACD312D /* Pods-PocketWizard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PocketWizard/PocketWizard.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K3D87V8GVH;
+				INFOPLIST_FILE = PocketWizard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PocketWizard Development Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550461CE22D8E94A002755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDD7E8A506F8522C3C65F56 /* Pods-PocketWizard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PocketWizard/PocketWizard.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K3D87V8GVH;
+				INFOPLIST_FILE = PocketWizard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PocketWizard Development Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		550461D022D8E94A002755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B626CA5A8DAEFD1ED92906A1 /* Pods-PocketWizardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWizardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWizard.app/PocketWizard";
+			};
+			name = Debug;
+		};
+		550461D122D8E94A002755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823CE30C797E52E721E27EED /* Pods-PocketWizardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWizardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWizard.app/PocketWizard";
+			};
+			name = Release;
+		};
+		550461D322D8E94A002755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB045DE520C2CC4F579B442 /* Pods-PocketWizard-PocketWizardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWizardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketWizard;
+			};
+			name = Debug;
+		};
+		550461D422D8E94A002755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44636B2B43DE723EB83B8846 /* Pods-PocketWizard-PocketWizardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWizardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PocketWizard.PocketWizardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketWizard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5504619D22D8E948002755C1 /* Build configuration list for PBXProject "PocketWizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550461CA22D8E94A002755C1 /* Debug */,
+				550461CB22D8E94A002755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550461CC22D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550461CD22D8E94A002755C1 /* Debug */,
+				550461CE22D8E94A002755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550461CF22D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550461D022D8E94A002755C1 /* Debug */,
+				550461D122D8E94A002755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550461D222D8E94A002755C1 /* Build configuration list for PBXNativeTarget "PocketWizardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550461D322D8E94A002755C1 /* Debug */,
+				550461D422D8E94A002755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		558E7C1A24C618F200D3CA28 /* PocketWizard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				558E7C1B24C618F200D3CA28 /* PocketWizard.xcdatamodel */,
+			);
+			currentVersion = 558E7C1B24C618F200D3CA28 /* PocketWizard.xcdatamodel */;
+			path = PocketWizard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5504619A22D8E948002755C1 /* Project object */;
+}

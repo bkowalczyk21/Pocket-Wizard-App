@@ -1,0 +1,70 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-nr1app-dev-131226-authRole",
+			"UnauthRoleArn": "arn:aws:iam::266357892174:role/amplify-nr1app-dev-131226-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::266357892174:role/amplify-nr1app-dev-131226-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-nr1app-dev-131226-deployment",
+			"UnauthRoleName": "amplify-nr1app-dev-131226-unauthRole",
+			"StackName": "amplify-nr1app-dev-131226",
+			"StackId": "arn:aws:cloudformation:us-east-1:266357892174:stack/amplify-nr1app-dev-131226/8dc4e580-b4ab-11ea-85b7-1277ff2044b7",
+			"AmplifyAppId": "d377sb23dk0g2y"
+		}
+	},
+	"auth": {
+		"nr1app5a82de6c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-nr1app-dev-131226-deployment/amplify-cfn-templates/auth/nr1app5a82de6c-cloudformation-template.yml",
+				"logicalId": "authnr1app5a82de6c"
+			},
+			"lastPushTimeStamp": "2020-07-06T18:53:58.700Z",
+			"output": {
+				"AppClientSecret": "1br5ndl08aaiu135185m42j10fp1rnh5ta7jgj43pols2pj1nrjt",
+				"UserPoolId": "us-east-1_x6FbJFxw5",
+				"AppClientIDWeb": "6qb10jgh1u12t3sfqi5tvt5hv4",
+				"AppClientID": "17qeop696rld6j7rqn0dbrtpi6",
+				"IdentityPoolId": "us-east-1:712a0777-64eb-4d20-8c08-cc198c1887cd",
+				"IdentityPoolName": "nr1app5a82de6c_identitypool_5a82de6c__dev",
+				"UserPoolName": "nr1app5a82de6c_userpool_5a82de6c"
+			},
+			"lastPushDirHash": "CW1u9pWs+7hWbHtr8A9pket0Us4="
+		}
+	},
+	"storage": {
+		"PWFirmware": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-nr1app-dev-131226-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storagePWFirmware"
+			},
+			"lastPushTimeStamp": "2020-07-06T18:53:58.702Z",
+			"output": {
+				"BucketName": "pwfirmware131226-dev",
+				"Region": "us-east-1"
+			},
+			"lastPushDirHash": "F8eIFJIAQRc6i2d8rM9YfI1lx6s="
+		}
+	},
+	"analytics": {
+		"nr1app": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-nr1app-dev-131226-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsnr1app"
+			},
+			"lastPushTimeStamp": "2020-07-06T18:53:58.706Z",
+			"output": {
+				"appName": "nr1app-dev",
+				"Region": "us-east-1",
+				"Id": "713f738814724014874eaef4dcc7f92f"
+			},
+			"lastPushDirHash": "8MtLMiHVCf5lKeRmJFFE7Ff1DEY="
+		}
+	}
+}

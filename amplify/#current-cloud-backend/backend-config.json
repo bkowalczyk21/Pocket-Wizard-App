@@ -1,0 +1,21 @@
+{
+	"auth": {
+		"nr1app5a82de6c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"PWFirmware": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"nr1app": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

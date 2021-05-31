@@ -1,0 +1,6 @@
+framework module Pods_PocketWizard_PocketWizardUITests {
+  umbrella header "Pods-PocketWizard-PocketWizardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
